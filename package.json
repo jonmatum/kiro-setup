@@ -1,6 +1,6 @@
 {
   "name": "kiro-setup",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Scaffold Kiro configuration boilerplate (agents, MCPs, steering, skills) into any project",
   "type": "module",
   "bin": {
