@@ -1,6 +1,9 @@
 # kiro-setup
 
-Scaffold Kiro configuration boilerplate into any project. Sets up agents, MCP servers, steering docs, and skills in one command.
+[![npm version](https://img.shields.io/npm/v/kiro-setup)](https://www.npmjs.com/package/kiro-setup)
+[![license](https://img.shields.io/npm/l/kiro-setup)](./LICENSE)
+
+Scaffold [Kiro](https://kiro.dev) configuration boilerplate into any project. Sets up agents, MCP servers, steering docs, and skills in one command.
 
 ## Usage
 
@@ -53,10 +56,22 @@ kiro-setup
 
 All generated files are meant to be edited. They are starting points, not locked configs. Modify them to match your project's needs, add new skills, configure MCP servers, or adjust conventions.
 
+## Contributing
+
+1. Fork the repository.
+2. Create a feature branch from `main`.
+3. Make your changes. If adding new templates, place them under `templates/`.
+4. Commit using [Conventional Commits](https://www.conventionalcommits.org/) format.
+5. Open a pull request.
+
+Releases and changelog entries are managed automatically by [release-please](https://github.com/googleapis/release-please). Conventional commit messages drive version bumps and changelog generation.
+
+See [CHANGELOG.md](./CHANGELOG.md) for the release history.
+
 ## Requirements
 
 - Node.js >= 18
 
 ## License
 
-MIT
+[MIT](./LICENSE)
